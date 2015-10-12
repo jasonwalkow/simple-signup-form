@@ -1,0 +1,78 @@
+body {
+	font-family: 'Karla', sans-serif;
+	background-color: #C1F0F6;
+}
+
+textarea:focus, input:focus{
+    outline: 0;
+}
+
+header {
+	margin: -2rem auto 1rem auto;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Pacifico', serif;
+	color: #CD2626;
+	font-size: 6rem;
+}
+
+.brand-logo {
+	background-image: url('http://lorempixel.com/g/400/400/animals/');
+	width: 300px;
+	height: 300px;
+	border-radius: 1px;
+}
+
+.center {
+	text-align: center;
+}
+
+.sign-up {
+  	background-color: #fff;
+  	width: 70%;
+  	margin: 1rem 15% 1rem 15%;
+  	-webkit-box-shadow: 0px 0px 32px -8px rgba(99,99,99,1);
+  	-moz-box-shadow: 0px 0px 32px -8px rgba(99,99,99,1);
+  	box-shadow: 0px 0px 32px -8px rgba(99,99,99,1);
+}
+
+body opt-in div {
+	display: inline-block;
+	margin-bottom: -0.25rem;
+}
+
+body opt-in form {
+  	width: 60%;
+  	float: right;
+  	margin-right: 1rem;
+  	margin-top: 2.5rem;
+  	display: inline-block;
+}
+
+form input {
+  	margin-top: 1rem;
+  	margin-left: .5rem;
+  	font-size: 1rem;
+  	padding: .5rem;
+  	border: 2px solid #F0F0F0;
+  	border-radius: 2px;
+  	font-family: 'Karla', sans-serif;
+  	width: 34.5%;
+}
+
+form input[type='submit'] {
+  	width: 79%;
+  	border: none;
+  	background-color: #CD2626;
+  	font-family: 'Pacifico', sans-serif;
+  	color: #fff;
+  	font-size: 1.5rem;
+  	border-bottom: 7px solid #B22222;
+  	border-radius: 5px;
+}
+
+form input[id='email'] {
+ 	width: 75%;
+}
